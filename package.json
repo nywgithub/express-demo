@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "name": "express-demos",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "s": "node ./src/app.js"
+  },
+  "author": "nyw",
+  "license": "ISC",
+  "description": ""
+}

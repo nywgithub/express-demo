@@ -22,12 +22,12 @@ router.get("/:id", async(req, res) => {
         console.log(db)
         const todo = db.todos.find((todo) => todo.id === +req.params.id);
         if (!todo) {
-        return res.status(404).end();
+            return res.status(404).end();
         }
         res.status(200).json(todo);
     } catch (err) {
         res.status(500).json({
-        error: err.message,
+            error: err.message,
         });
     }
 
